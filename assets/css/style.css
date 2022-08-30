@@ -58,7 +58,9 @@ header{
     padding: 1rem 0 1rem 1.5rem;
     background-color: white;
 }
-
+#logo, h1{
+    vertical-align: middle;
+}
 /* main */
 main{
     width: 50%;
@@ -66,21 +68,39 @@ main{
     margin-top: 2rem;
 }
 
-.button-section{
-    margin: 1px;
+.buttons-section{
+    background-color: white;
+    border-bottom: 2px solid rgb(230,230,230);
+    padding-left: 2.5rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
+    border-radius: 2%;
 }
 
-hr{
-    width: 100%;
+.add-task-button{
+    color:white;
+    background-color: var(--blue);
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 15%;
+}
+
+.add-section-button{
+    color:white;
+    background-color: grey;
+    padding: 0.5rem;
+    opacity: 0.3;
+    border: 0;
+    border-radius: 15%;
 }
 
 /* container */
 .container{
     background-color: white;
     padding-left: 2.5rem;
-    padding-top:1.5rem;
+    padding-top:1rem;
     padding-bottom: 1.5rem;
+    border-radius: 1%;
 }
 /* check and to-do settings */
 .check{
@@ -89,6 +109,7 @@ hr{
     border-radius: 50%;
     padding:2px;
     margin-right:0.5rem;
+    font-size: 0.75rem;
 }
 
 .to_do{
@@ -97,6 +118,7 @@ hr{
     border-radius: 50%;
     padding:2px;
     margin-right:0.5rem;
+    font-size: 0.75rem;
 }
 
 .title{
