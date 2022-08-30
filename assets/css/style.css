@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 :root{
     --blue: #1e90ff;
@@ -11,4 +12,12 @@
     --green: #59CE8F;
     --lightgreen: #7DCE13;
     --fuchsia: #F35588;
+}
+h1{
+    display: inline-block;
+    vertical-align: center;
+}
+/* header */
+header{
+    padding: 1rem 0 1rem 1.5rem;
 }
