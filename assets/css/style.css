@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
+
+body{
+    background-color: rgb(230,230,230);
+}
 :root{
     --blue: #1e90ff;
     --purple: #A66CFF;
@@ -13,11 +17,36 @@
     --lightgreen: #7DCE13;
     --fuchsia: #F35588;
 }
-h1{
+h1, h3{
     display: inline-block;
-    vertical-align: center;
 }
 /* header */
 header{
     padding: 1rem 0 1rem 1.5rem;
+    background-color: white;
+}
+
+/* main */
+
+main{
+    width: 50%;
+    margin:auto;
+}
+.button-section{
+    margin: 1px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.container{
+    background-color: white;
+    padding-left: 2.5rem;
+    padding-top:1.5rem;
+}
+
+.check{
+    border: 1px solid #59CE8F;
+    color:#59CE8F;
+    border-radius: 9px;
+    padding: 2px;
 }
