@@ -23,12 +23,6 @@ h1, h3{
     display: inline-block;
 }
 
-main{
-    width: 50%;
-    margin:auto;
-    margin-top: 2rem;
-}
-
 .item-button{
     color:white;
     padding:5px;
@@ -48,8 +42,15 @@ main{
 .green{
     background-color: var(--green);
 }
+.lightgreen{
+    background-color: var(--lightgreen);
+}
 .orange{
     background-color: var(--orange);
+}
+
+.fuchsia{
+    background-color: var(--fuchsia);
 }
 
 /* header */
@@ -59,6 +60,12 @@ header{
 }
 
 /* main */
+main{
+    width: 50%;
+    margin:auto;
+    margin-top: 2rem;
+}
+
 .button-section{
     margin: 1px;
     padding-bottom: 1rem;
@@ -67,10 +74,13 @@ header{
 hr{
     width: 100%;
 }
+
+/* container */
 .container{
     background-color: white;
     padding-left: 2.5rem;
     padding-top:1.5rem;
+    padding-bottom: 1.5rem;
 }
 /* check and to-do settings */
 .check{
@@ -78,6 +88,7 @@ hr{
     color:#59CE8F;
     border-radius: 50%;
     padding:2px;
+    margin-right:0.5rem;
 }
 
 .to_do{
@@ -85,6 +96,7 @@ hr{
     color:red;
     border-radius: 50%;
     padding:2px;
+    margin-right:0.5rem;
 }
 
 .title{
