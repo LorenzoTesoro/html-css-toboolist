@@ -1,0 +1,14 @@
+/* common rules */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --blue: #1e90ff;
+    --purple: #A66CFF;
+    --orange: #FF9551; 
+    --green: #59CE8F;
+    --lightgreen: #7DCE13;
+    --fuchsia: #F35588;
+}
